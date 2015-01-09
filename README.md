@@ -5,7 +5,7 @@ This project provides various algorithm implementation and corresponding test co
 Most source code is originated from book "Beginning Algorithms" written by Simon Harris and James Ross, but the algorithm in this project is not limited to the algorithm in that book, I add more algorithm I practised into the project.
 
 Algorithm list:
-1.Sort
+1.Sort<br>
 (1)Bubble Sort
 (2)Insertion Sort
 (3)Merge Sort
