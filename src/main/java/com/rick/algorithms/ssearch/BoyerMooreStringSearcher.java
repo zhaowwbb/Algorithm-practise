@@ -13,7 +13,7 @@ public class BoyerMooreStringSearcher implements StringSearcher {
 		this.array = new int[SIZE];
 	}
 	
-	@Override
+//	@Override
 	public int search(String src, String pattern) {
 		int pos = -1;
 		this.count = 0;

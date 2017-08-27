@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface ListSorter {
 
-	public List sort(List list);
+	public <T> List<T> sort(List<T> list);
 }

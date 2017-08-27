@@ -121,27 +121,27 @@ public class MazePanel extends JPanel implements KeyListener, MouseListener {
 		return maze;
 	}	
 	
-	@Override
+//	@Override
 	public void mouseClicked(MouseEvent e) {
 
 	}
 
-	@Override
+//	@Override
 	public void mousePressed(MouseEvent e) {
 
 	}
 
-	@Override
+//	@Override
 	public void mouseReleased(MouseEvent e) {
 
 	}
 
-	@Override
+//	@Override
 	public void mouseEntered(MouseEvent e) {
 
 	}
 
-	@Override
+//	@Override
 	public void mouseExited(MouseEvent e) {
 
 	}

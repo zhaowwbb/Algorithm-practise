@@ -9,7 +9,6 @@ public class QuicksortListSorter extends AbstractListSorter {
         _comparator = comparator;
 	}
 
-	@Override
 	public List sort(List list) {
 		check(list);		
 		quickSort(list, 0, list.size() - 1);

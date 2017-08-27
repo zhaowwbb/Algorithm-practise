@@ -14,18 +14,14 @@ public class HeapOrderedListPriorityQueue implements Queue {
 		this._list = new LinkedList();
 	}
 
-
-	@Override
 	public void clear() {
 		_list.clear();
 	}
 
-	@Override
 	public int size() {
 		return _list.size();
 	}
 
-	@Override
 	public boolean isEmpty() {
 		return _list.size() == 0;
 	}
@@ -68,13 +64,11 @@ public class HeapOrderedListPriorityQueue implements Queue {
 		}
 	}
 	
-	@Override
 	public void enqueue(Object o) {
 		_list.add(o);
 		swim(_list.size() - 1);
 	}
 
-	@Override
 	public Object dequeue() throws EmptyQueueException {
 		if(isEmpty())
 		{

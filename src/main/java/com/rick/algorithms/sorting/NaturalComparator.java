@@ -8,7 +8,6 @@ public class NaturalComparator implements Comparator {
 
 	}
 
-	@Override
 	public int compare(Object left, Object right) throws ClassCastException {
 		assert left != null : "left can't be null";
 		assert right != null : "right can't be null";

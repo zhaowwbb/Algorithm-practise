@@ -9,7 +9,6 @@ public class CallCountingComparator implements Comparator {
 		this._comparator = comparator;
 	}
 
-	@Override
 	public int compare(Object left, Object right) throws ClassCastException {
 		_callCount++;
 		return _comparator.compare(left, right);

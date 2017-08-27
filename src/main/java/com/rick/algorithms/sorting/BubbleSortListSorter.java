@@ -8,7 +8,6 @@ public class BubbleSortListSorter extends AbstractListSorter {
 		this._comparator = comparator;
 	}
 
-	@Override
 	public List sort(List list) {
 		check(list);
 		int size = list.size();

@@ -13,7 +13,6 @@ public class SortedListPriorityQueue implements Queue {
 		this.list = new LinkedList();
 	}
 
-	@Override
 	public void enqueue(Object o) {
 		int pos = list.size();
 		while(pos > 0 && _comparator.compare(list.get(pos - 1), o) > 0)
@@ -23,7 +22,6 @@ public class SortedListPriorityQueue implements Queue {
 		list.add(pos, o);
 	}
 
-	@Override
 	public Object dequeue() throws EmptyQueueException {
 		if(isEmpty())
 		{
@@ -33,17 +31,14 @@ public class SortedListPriorityQueue implements Queue {
 		return o;
 	}
 
-	@Override
 	public void clear() {
 		list.clear();
 	}
 
-	@Override
 	public int size() {
 		return list.size();
 	}
 
-	@Override
 	public boolean isEmpty() {
 		
 		return list.size() == 0;

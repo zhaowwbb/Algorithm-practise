@@ -10,7 +10,7 @@ public class LinearListSearcher implements ListSearcher {
 		this._comparator = comparator;
 	}
 
-	@Override
+//	@Override
 	public int search(List list, Object o) {
 		assert list != null : "list can't be null";
 		int i;

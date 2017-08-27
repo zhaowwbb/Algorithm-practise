@@ -14,12 +14,10 @@ public class UnsortedListPriorityQueue implements Queue {
 		this.list = new LinkedList();
 	}
 
-	@Override
 	public void enqueue(Object o) {
 		list.add(o);
 	}
 
-	@Override
 	public Object dequeue() throws EmptyQueueException {
 		if(isEmpty())
 		{
@@ -45,17 +43,14 @@ public class UnsortedListPriorityQueue implements Queue {
 		return pos;
 	}
 
-	@Override
 	public void clear() {
 		list.clear();
 	}
 
-	@Override
 	public int size() {
 		return list.size();
 	}
 
-	@Override
 	public boolean isEmpty() {
 		return list.size() == 0;
 	}
