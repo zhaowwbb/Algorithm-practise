@@ -13,6 +13,7 @@ import com.rick.algorithms.knapsack.KnapSackTestSuite;
 import com.rick.algorithms.maze.MazeTest;
 import com.rick.algorithms.ssearch.BoyerMooreStringSearcherTest;
 import com.rick.algorithms.ssearch.BruteForceStringSearcherTest;
+import com.rick.algorithms.string.StringTestSuite;
 import com.rick.algorithms.trietree.DictionaryTest;
 import com.rick.algorithms.trietree.WordSearchUtilityTest;
 import com.rick.algorithms.list.ListTestSuite;
@@ -31,6 +32,7 @@ import com.rick.algorithms.list.ListTestSuite;
 	DictionaryTest.class,
 	WordSearchUtilityTest.class,
 	QueueTestSuite.class,
+	StringTestSuite.class,
 	ListTestSuite.class
 })
 
