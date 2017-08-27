@@ -21,4 +21,10 @@ public class SingleLinkedNode {
 		return this.next;
 	}
 	
+	public String toString(){
+		StringBuilder sb = new StringBuilder();
+		sb.append("[").append(this.value).append("]");
+		return sb.toString();
+	}
+	
 }
