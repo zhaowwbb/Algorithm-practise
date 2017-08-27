@@ -15,6 +15,7 @@ import com.rick.algorithms.ssearch.BoyerMooreStringSearcherTest;
 import com.rick.algorithms.ssearch.BruteForceStringSearcherTest;
 import com.rick.algorithms.trietree.DictionaryTest;
 import com.rick.algorithms.trietree.WordSearchUtilityTest;
+import com.rick.algorithms.list.ListTestSuite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
@@ -29,7 +30,8 @@ import com.rick.algorithms.trietree.WordSearchUtilityTest;
 	MazeTest.class,
 	DictionaryTest.class,
 	WordSearchUtilityTest.class,
-	QueueTestSuite.class
+	QueueTestSuite.class,
+	ListTestSuite.class
 })
 
 public class AllTestSuite {
