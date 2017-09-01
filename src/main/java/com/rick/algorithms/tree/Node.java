@@ -40,4 +40,10 @@ public class Node {
 	public String getValue() {
 		return value;
 	}
+	
+	public String toString(){
+		StringBuilder sb = new StringBuilder();
+		sb.append("value=").append(this.value);
+		return sb.toString();
+	}
 }
